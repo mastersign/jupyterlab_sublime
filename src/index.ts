@@ -45,7 +45,7 @@ class JupyterLabSublime {
     commands.addKeyBinding({
       command: "sublime:exit-editor",
       keys: ["Escape"],
-      selector: ".CodeMirror-focused",
+      selector: ".jp-Notebook-cell .CodeMirror-focused",
     });
 
     // Manage Shift-Tab collision
@@ -62,7 +62,7 @@ class JupyterLabSublime {
     commands.addKeyBinding({
       command: "sublime:indent-less-slash-tooltip",
       keys: ["Shift Tab"],
-      selector: ".CodeMirror-focused",
+      selector: ".jp-Notebook-cell .CodeMirror-focused",
     });
 
     // Manage Shift-Ctr-L collision
@@ -76,13 +76,13 @@ class JupyterLabSublime {
        commands.addKeyBinding({
          command: "sublime:split-selection-by-lLine",
          keys: ["Accel Shift L"],
-         selector: ".CodeMirror-focused",
+         selector: ".jp-Notebook-cell .CodeMirror-focused",
        });
     } else {
       commands.addKeyBinding({
         command: "sublime:split-selection-by-lLine",
         keys: ["Ctrl Shift L"],
-        selector: ".CodeMirror-focused",
+        selector: ".jp-Notebook-cell .CodeMirror-focused",
       });
     }
 
@@ -97,7 +97,7 @@ class JupyterLabSublime {
     commands.addKeyBinding({
       command: "sublime:go-to-bracket",
       keys: ["Ctrl M"],
-      selector: ".CodeMirror-focused",
+      selector: ".jp-Notebook-cell .CodeMirror-focused",
     });
 
     // Manage Shift-Ctrl-D collision
@@ -111,13 +111,13 @@ class JupyterLabSublime {
       commands.addKeyBinding({
         command: "sublime:duplicate-line",
         keys: ["Accel Shift D"],
-        selector: ".CodeMirror-focused",
+        selector: ".jp-Notebook-cell .CodeMirror-focused",
       });
     } else {
       commands.addKeyBinding({
         command: "sublime:duplicate-line",
         keys: ["Ctrl Shift D"],
-        selector: ".CodeMirror-focused",
+        selector: ".jp-Notebook-cell .CodeMirror-focused",
       });
     }
 
@@ -131,7 +131,7 @@ class JupyterLabSublime {
     commands.addKeyBinding({
       command: "sublime:add-cursor-to-prev-line",
       keys: ["Ctrl ArrowUp"],
-      selector: ".CodeMirror-focused",
+      selector: ".jp-Notebook-cell .CodeMirror-focused",
     });
 
     // Repurpose Ctrl-Down
@@ -144,7 +144,7 @@ class JupyterLabSublime {
     commands.addKeyBinding({
       command: "sublime:add-cursor-to-next-line",
       keys: ["Ctrl ArrowDown"],
-      selector: ".CodeMirror-focused",
+      selector: ".jp-Notebook-cell .CodeMirror-focused",
     });
 
     commands.addCommand("sublime:subword-backward-deletion", {
@@ -180,7 +180,7 @@ class JupyterLabSublime {
     commands.addKeyBinding({
       command: "sublime:subword-backward-deletion",
       keys: ["Alt Backspace"],
-      selector: ".CodeMirror-focused",
+      selector: ".jp-Notebook-cell .CodeMirror-focused",
     });
 
     commands.addCommand("sublime:subword-forward-deletion", {
@@ -216,7 +216,7 @@ class JupyterLabSublime {
     commands.addKeyBinding({
       command: "sublime:subword-forward-deletion",
       keys: ["Alt Delete"],
-      selector: ".CodeMirror-focused",
+      selector: ".jp-Notebook-cell .CodeMirror-focused",
     });
   }
 
