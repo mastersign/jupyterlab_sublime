@@ -1,6 +1,12 @@
 UNRELEASED
 ----------
 
+0.1.5 2019-02-20
+----------------
+
+* Constraint selector to jupyter lab notebook cell
+* Restrict jupyterlab dep range as suggested by npm audit;
+
 0.1.4 2018-10-10
 ----------------
 
