@@ -1,7 +1,9 @@
 # jupyterlab_sublime
 
-[![npm version](https://badge.fury.io/js/%40ryantam626%2Fjupyterlab_sublime.svg)](https://badge.fury.io/js/%40ryantam626%2Fjupyterlab_sublime)
-[![npm downloads](https://img.shields.io/npm/dw/%40ryantam626%2Fjupyterlab_sublime.svg)](https://badge.fury.io/js/%40ryantam626%2Fjupyterlab_sublime)
+[![npm version](https://badge.fury.io/js/%40mastersign%2Fjupyterlab_sublime.svg)](https://badge.fury.io/js/%40mastersign%2Fjupyterlab_sublime)
+[![npm downloads](https://img.shields.io/npm/dw/%40mastersign%2Fjupyterlab_sublime.svg)](https://badge.fury.io/js/%40mastersign%2Fjupyterlab_sublime)
+
+> This is a tailored fork of [ryantam626/jupyterlab_sublime](https://github.com/ryantam626/jupyterlab_sublime).
 
 A slightly opinionated Sublime notebook cell binding for JupyterLab.
 
@@ -22,7 +24,7 @@ There are some keybindings which simply don't feel useful, so they are repurpose
 ## Installation
 
 ```bash
-jupyter labextension install @ryantam626/jupyterlab_sublime
+jupyter labextension install @mastersign/jupyterlab_sublime
 ```
 
 ## Development
