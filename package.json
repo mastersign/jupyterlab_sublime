@@ -7,37 +7,23 @@
     "jupyterlab",
     "jupyterlab-extension"
   ],
-  "homepage": "https://github.com/ryantam626/jupyterlab_sublime",
+  "homepage": "https://github.com/mastersign/jupyterlab_sublime",
   "bugs": {
-    "url": "https://github.com/ryantam626/jupyterlab_sublime/issues"
+    "url": "https://github.com/mastersign/jupyterlab_sublime/issues"
   },
   "license": "MIT",
-  "author": "Ryan Tam",
+  "author": "Tobias Kiertscher",
   "files": [
-    "lib/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png,svg,woff2,ttf}",
-    "style/**/*.{css,eot,gif,html,jpg,json,png,svg,woff2,ttf}"
+    "index.js"
   ],
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ryantam626/jupyterlab_sublime.git"
-  },
-  "scripts": {
-    "build": "tsc",
-    "clean": "rimraf lib",
-    "watch": "tsc -w",
-    "prepare": "npm run clean && npm run build"
+    "url": "https://github.com/mastersign/jupyterlab_sublime.git"
   },
   "dependencies": {
-    "@jupyterlab/application": ">=0.17.0 <0.20.0",
-    "@jupyterlab/notebook": ">=0.17.0 <0.20.0",
-    "@types/codemirror": "0.0.72"
-  },
-  "devDependencies": {
-    "rimraf": "^2.6.1",
-    "tslint": "^5.11.0",
-    "typescript": "~2.9.2"
+    "@jupyterlab/application": ">=1.0.0 <2.0.0",
+    "@jupyterlab/notebook": ">=1.0.0 <2.0.0"
   },
   "jupyterlab": {
     "extension": true

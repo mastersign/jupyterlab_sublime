@@ -1,6 +1,8 @@
 UNRELEASED
 ----------
 
+* Make compatible with Jupyter Lab 1.x
+
 0.1.5 2019-02-20
 ----------------
 
